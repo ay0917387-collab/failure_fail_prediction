@@ -16,7 +16,7 @@ import streamlit as st
 
 #failure_fail_prediction.pkl
 
-model = joblib.load('failure_fail_prediction.pkl')
+model = joblib.load('model.pkl')
 
 st.set_page_config(page_title='Failure Type Prediction')
 st.title('Failure Type Prediction')
