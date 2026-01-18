@@ -43,7 +43,7 @@ if st.button('Predict'):
        IP	,
        Temperature
        ]])
-    prediction = model.predict(input_data)
+       prediction = model.predict(input_data)
   if prediction == 1:
     st.success = (" ** Fail **")
   else:
